@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeMarker Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <h1>Путь до значения product в JSON:</h1>
+    <p>Решение:</p>
+
+<div class="fields">    
+  <div id="solution">
+       "payload":{
+          "name":{
+            "company": "T-Bank",
+            "team": "Content"
+            },
+          "purchases":[{
+            "shop": "Romashka", 
+            "product": "book", 
+            "quantity": 7
+            }]
+          }
+    </div>
+    <div id="solution">
+            <div id="result"></div>
+    </div></div>
+
+    <button class="tab" onclick="execute()">Выполнить</button>
+    <button class="cssbuttons-io-button" onclick="document.location='two/indextwo.html'">
+      NEXT
+      <div class="icon">
+        <svg
+          height="24"
+          width="24"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"fill="currentColor"></path>
+        </svg>
+      </div>
+    </button>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

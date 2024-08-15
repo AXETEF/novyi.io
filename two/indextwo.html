@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeMarker Example</title>
+    <link rel="stylesheet" type="text/css" href="styletwo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <h1>Логика проверки условия на FreeMarker:</h1>
+    <p>Решение:</p>
+
+    <div id="solution">
+        &lt;#if (card == "Black" || card == "Platinum") && eligible&gt; Вам доступен бонус &lt;/#if&gt;
+    </div>
+
+    <button class="tab" onclick="execute()">Выполнить</button>
+    <button class="cssbuttons-io-button" onclick="document.location='three/index.html'">
+      NEXT
+      <div class="icon">
+        <svg
+          height="24"
+          width="24"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"fill="currentColor"></path>
+        </svg>
+      </div>
+    </button>
+    <div id="result"></div>
+
+    <script src="maintwo.js"></script>
+</body>
+</html>
